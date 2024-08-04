@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: rgb(212, 208, 208);
+  font-family: "Inter", sans-serif;
+}
+.full-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.left-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+}
+.middle-container{
+  width: 100%;
+  border: 1px solid gray;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-y: auto;
+  height: 100vh;
+}
+.middle-container::-webkit-scrollbar{
+  width: 5px;
+}
+.right-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 10px;
+padding-left: 20px;
+overflow-y: auto;
+}
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.menu-container-items{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+}
+.menu-item{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  height: 35px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.home-icon{
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.tweet-button{
+  margin-top: 20px;
+  border-radius: 30px;
+  margin-left: -10px;
+  height: 35px;
+  max-width: 180px;
+  background-color: rgb(92, 161, 235);
+  border:none;
+  font-weight: bold;
+  color: white;
+}
+.prof-img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+.account{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  height: 53px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.account-info{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;  
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.category{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.category div{
+  font-weight: 300;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: gray;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.category .active{
+  color: rgb(209, 207, 207);
+}
+.active-line{
+  max-width: 60px;
+  background-color: rgb(92, 161, 235);
+  height: 3px;
+}
+hr{
+  margin: 0 -20px;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.657);
+  border: none;
+}
+.what-is{
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.terms{
+  color: rgb(92, 161, 235);
+}
+.got-it{
+  padding: 7px 20px;
+  color: rgba(0, 0, 0, 0.842);
+  background-color: white;
+  border:none;
+  border-radius: 30px;
+  font-weight: 800;
+margin-bottom: 5px;
+}
+.posting{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.post-data{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+
+}
+.name{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(222, 220, 220);
+}
+.userName{
+  color: gray;
+  font-size: 10px;
+
+}
+.ppss{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+ul{
+  margin-top: -5px;
+}
+li{
+  margin-left: -27px;
+}
+.input-container{
+  width: 60%;
+  margin-top: 5px;
+  position: relative;
+}
+.input-container input{
+  width: 88%;
+  border-radius: 30px;
+  background-color: rgba(58, 56, 56, 0.9);
+  border: none;
+  padding: 8px 20px;
+  color: gray;
+}
+.right-section{
+  width: 60%;
+  background-color: rgb(58, 56, 56, 0.9);
+  border-radius: 10px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 8px;
+
+}
+.trendings{
+  color: rgba(172, 171, 171, 0.657);
+  width: 90%;
+font-size: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.tr-name{
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.who-to{
+  width: 60%;
+  background-color: rgb(58, 56, 56, 0.9);
+  border-radius: 10px;
+  padding-left: 15px;
+}
